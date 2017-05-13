@@ -1,13 +1,11 @@
 # TFGridInputView
-[项目GitHub地址](https://github.com/ToFind1991/TFGridInputView)
+### 先来两张效果图
 
-###先来两张效果图
+<img src="http://upload-images.jianshu.io/upload_images/624048-192086ff8ed6f774.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
 
-![多行+分开](http://upload-images.jianshu.io/upload_images/624048-192086ff8ed6f774.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img src="http://upload-images.jianshu.io/upload_images/624048-3045749970e3dd28.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
 
-![多行+紧贴+边框+圆角](http://upload-images.jianshu.io/upload_images/624048-3045749970e3dd28.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-###开始
+### 开始
 前几天朋友问我,怎么实现一个输入框的效果，设计图就是下面这张：
 
 ![一个输入框](http://upload-images.jianshu.io/upload_images/624048-b11e1fd613cd60dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -18,7 +16,7 @@
 
 然后我就来了兴致，准备认真封装下，写一个对于这类输入框的通用控件。所以就有了[TFGridInputView](https://github.com/ToFind1991/TFGridInputView)
 
-###目前的功能
+### 目前的功能
 
 * 可以像系统输入控件那样点击弹出键盘输入，通过`resignFirstResponder`来取消输入。
 
@@ -42,11 +40,11 @@
   * 一种就是每个cell是分开的，就像上面朋友给的需求那样。
   * 还一种是类似支付宝输入支付密码的样式，即一连串的紧贴的格子，如图。
 
-![支付宝](http://upload-images.jianshu.io/upload_images/624048-3685ae22d06f6400.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img src="http://upload-images.jianshu.io/upload_images/624048-3685ae22d06f6400.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
 
-###使用
+### 使用
 
-在[项目代码](https://github.com/ToFind1991/TFGridInputView)里有详细的各种例子，欢迎直接看代码。这里给出一个简单示例：
+欢迎直接看代码,这里给出一个简单示例：
 ```
 //构建一个输入框
     _inputView = [[TFGridInputView alloc] initWithFrame:CGRectMake(30, 120, 100, 200) row:3 column:6];
@@ -74,11 +72,11 @@
 ```
 * 推荐使用带row、column的init方法构建，这样可以在初始化时候就把cell确定好，避免重复构建。
 * 设置cell的各种状态需要的样式，如果你每种状态样式一直，就只需要设置empty状态即可。
-*如果你还需要边框或圆角，也可以继续设置。
+* 如果你还需要边框或圆角，也可以继续设置。
 
 然后就可以使用了，大多数的工作都是在配置样式。
 
-###关于布局规则
+### 关于布局规则
 
 构建了一个`TFGridInputView`对象后，给了一个`frame`，但是可能cell的宽度加上cell之间的间隙会超过frame，比如宽度100，然后一行5个cell,cell宽度30，这样cell本身就占据了150的宽度了。
 
