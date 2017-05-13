@@ -8,18 +8,6 @@
 
 -----------------
 
-### 开始
-前几天朋友问我,怎么实现一个输入框的效果，设计图就是下面这张：
-
-<img src="http://upload-images.jianshu.io/upload_images/624048-b11e1fd613cd60dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
-
-当时觉得挺眼熟的，很多支付APP的支付密码就是这样输入的。
-
-如果总结下，就是当你输入比较少的内容，而又希望整体比较美观的话，就会这样做，因为系统的UITextField会把内容挤在一起。
-
-然后我就来了兴致，准备认真封装下，写一个对于这类输入框的通用控件。所以就有了[TFGridInputView](https://github.com/ToFind1991/TFGridInputView)
-
-
 
 ### 目前的功能
 
