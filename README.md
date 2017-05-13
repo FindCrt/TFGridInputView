@@ -5,16 +5,21 @@
 
 <img src="http://upload-images.jianshu.io/upload_images/624048-3045749970e3dd28.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
 
+
+
+
 ### 开始
 前几天朋友问我,怎么实现一个输入框的效果，设计图就是下面这张：
 
-![一个输入框](http://upload-images.jianshu.io/upload_images/624048-b11e1fd613cd60dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img src="http://upload-images.jianshu.io/upload_images/624048-b11e1fd613cd60dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
 
 当时觉得挺眼熟的，很多支付APP的支付密码就是这样输入的。
 
 如果总结下，就是当你输入比较少的内容，而又希望整体比较美观的话，就会这样做，因为系统的UITextField会把内容挤在一起。
 
 然后我就来了兴致，准备认真封装下，写一个对于这类输入框的通用控件。所以就有了[TFGridInputView](https://github.com/ToFind1991/TFGridInputView)
+
+
 
 ### 目前的功能
 
@@ -41,6 +46,8 @@
   * 还一种是类似支付宝输入支付密码的样式，即一连串的紧贴的格子，如图。
 
 <img src="http://upload-images.jianshu.io/upload_images/624048-3685ae22d06f6400.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
+
+
 
 ### 使用
 
@@ -75,6 +82,8 @@
 * 如果你还需要边框或圆角，也可以继续设置。
 
 然后就可以使用了，大多数的工作都是在配置样式。
+
+
 
 ### 关于布局规则
 
