@@ -6,7 +6,7 @@
 <img src="http://upload-images.jianshu.io/upload_images/624048-3045749970e3dd28.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="50%">
 
 
-
+-----------------
 
 ### 开始
 前几天朋友问我,怎么实现一个输入框的效果，设计图就是下面这张：
