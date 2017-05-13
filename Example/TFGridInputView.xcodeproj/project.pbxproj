@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A650AF1EC6FB30005D44F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A650AE1EC6FB30005D44F6 /* main.m */; };
+		89A650B21EC6FB30005D44F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A650B11EC6FB30005D44F6 /* AppDelegate.m */; };
+		89A650B81EC6FB30005D44F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A650B61EC6FB30005D44F6 /* Main.storyboard */; };
+		89A650BA1EC6FB30005D44F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A650B91EC6FB30005D44F6 /* Assets.xcassets */; };
+		89A650BD1EC6FB30005D44F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A650BB1EC6FB30005D44F6 /* LaunchScreen.storyboard */; };
+		89A650C81EC6FB97005D44F6 /* TFInputViewShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A650C51EC6FB97005D44F6 /* TFInputViewShowViewController.m */; };
+		89A650C91EC6FB97005D44F6 /* TFShowListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A650C71EC6FB97005D44F6 /* TFShowListViewController.m */; };
+		89A650DB1EC6FC86005D44F6 /* TFGridInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A650D61EC6FC86005D44F6 /* TFGridInputView.m */; };
+		89A650DC1EC6FC86005D44F6 /* TFGridInputViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A650D81EC6FC86005D44F6 /* TFGridInputViewCell.m */; };
+		89A650DD1EC6FC86005D44F6 /* TFGridInputViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A650DA1EC6FC86005D44F6 /* TFGridInputViewCellStyle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89A650AA1EC6FB30005D44F6 /* TFGridInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFGridInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A650AE1EC6FB30005D44F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89A650B01EC6FB30005D44F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89A650B11EC6FB30005D44F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89A650B71EC6FB30005D44F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89A650B91EC6FB30005D44F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89A650BC1EC6FB30005D44F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89A650BE1EC6FB30005D44F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A650C41EC6FB97005D44F6 /* TFInputViewShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFInputViewShowViewController.h; sourceTree = "<group>"; };
+		89A650C51EC6FB97005D44F6 /* TFInputViewShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFInputViewShowViewController.m; sourceTree = "<group>"; };
+		89A650C61EC6FB97005D44F6 /* TFShowListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFShowListViewController.h; sourceTree = "<group>"; };
+		89A650C71EC6FB97005D44F6 /* TFShowListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFShowListViewController.m; sourceTree = "<group>"; };
+		89A650D51EC6FC86005D44F6 /* TFGridInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGridInputView.h; sourceTree = "<group>"; };
+		89A650D61EC6FC86005D44F6 /* TFGridInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGridInputView.m; sourceTree = "<group>"; };
+		89A650D71EC6FC86005D44F6 /* TFGridInputViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGridInputViewCell.h; sourceTree = "<group>"; };
+		89A650D81EC6FC86005D44F6 /* TFGridInputViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGridInputViewCell.m; sourceTree = "<group>"; };
+		89A650D91EC6FC86005D44F6 /* TFGridInputViewCellStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGridInputViewCellStyle.h; sourceTree = "<group>"; };
+		89A650DA1EC6FC86005D44F6 /* TFGridInputViewCellStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGridInputViewCellStyle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A650A71EC6FB30005D44F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A650A11EC6FB30005D44F6 = {
+			isa = PBXGroup;
+			children = (
+				89A650AC1EC6FB30005D44F6 /* TFGridInputView */,
+				89A650AB1EC6FB30005D44F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A650AB1EC6FB30005D44F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A650AA1EC6FB30005D44F6 /* TFGridInputView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A650AC1EC6FB30005D44F6 /* TFGridInputView */ = {
+			isa = PBXGroup;
+			children = (
+				89A650D41EC6FC86005D44F6 /* TFGridInputView */,
+				89A650B01EC6FB30005D44F6 /* AppDelegate.h */,
+				89A650B11EC6FB30005D44F6 /* AppDelegate.m */,
+				89A650C61EC6FB97005D44F6 /* TFShowListViewController.h */,
+				89A650C71EC6FB97005D44F6 /* TFShowListViewController.m */,
+				89A650C41EC6FB97005D44F6 /* TFInputViewShowViewController.h */,
+				89A650C51EC6FB97005D44F6 /* TFInputViewShowViewController.m */,
+				89A650B61EC6FB30005D44F6 /* Main.storyboard */,
+				89A650B91EC6FB30005D44F6 /* Assets.xcassets */,
+				89A650BB1EC6FB30005D44F6 /* LaunchScreen.storyboard */,
+				89A650BE1EC6FB30005D44F6 /* Info.plist */,
+				89A650AD1EC6FB30005D44F6 /* Supporting Files */,
+			);
+			path = TFGridInputView;
+			sourceTree = "<group>";
+		};
+		89A650AD1EC6FB30005D44F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A650AE1EC6FB30005D44F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A650D41EC6FC86005D44F6 /* TFGridInputView */ = {
+			isa = PBXGroup;
+			children = (
+				89A650D51EC6FC86005D44F6 /* TFGridInputView.h */,
+				89A650D61EC6FC86005D44F6 /* TFGridInputView.m */,
+				89A650D71EC6FC86005D44F6 /* TFGridInputViewCell.h */,
+				89A650D81EC6FC86005D44F6 /* TFGridInputViewCell.m */,
+				89A650D91EC6FC86005D44F6 /* TFGridInputViewCellStyle.h */,
+				89A650DA1EC6FC86005D44F6 /* TFGridInputViewCellStyle.m */,
+			);
+			name = TFGridInputView;
+			path = ../../Sources/TFGridInputView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A650A91EC6FB30005D44F6 /* TFGridInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A650C11EC6FB30005D44F6 /* Build configuration list for PBXNativeTarget "TFGridInputView" */;
+			buildPhases = (
+				89A650A61EC6FB30005D44F6 /* Sources */,
+				89A650A71EC6FB30005D44F6 /* Frameworks */,
+				89A650A81EC6FB30005D44F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFGridInputView;
+			productName = TFGridInputView;
+			productReference = 89A650AA1EC6FB30005D44F6 /* TFGridInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A650A21EC6FB30005D44F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shiwei;
+				TargetAttributes = {
+					89A650A91EC6FB30005D44F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UML9BQURX9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89A650A51EC6FB30005D44F6 /* Build configuration list for PBXProject "TFGridInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A650A11EC6FB30005D44F6;
+			productRefGroup = 89A650AB1EC6FB30005D44F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A650A91EC6FB30005D44F6 /* TFGridInputView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A650A81EC6FB30005D44F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A650BD1EC6FB30005D44F6 /* LaunchScreen.storyboard in Resources */,
+				89A650BA1EC6FB30005D44F6 /* Assets.xcassets in Resources */,
+				89A650B81EC6FB30005D44F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A650A61EC6FB30005D44F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A650DB1EC6FC86005D44F6 /* TFGridInputView.m in Sources */,
+				89A650C91EC6FB97005D44F6 /* TFShowListViewController.m in Sources */,
+				89A650B21EC6FB30005D44F6 /* AppDelegate.m in Sources */,
+				89A650DC1EC6FC86005D44F6 /* TFGridInputViewCell.m in Sources */,
+				89A650DD1EC6FC86005D44F6 /* TFGridInputViewCellStyle.m in Sources */,
+				89A650AF1EC6FB30005D44F6 /* main.m in Sources */,
+				89A650C81EC6FB97005D44F6 /* TFInputViewShowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89A650B61EC6FB30005D44F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A650B71EC6FB30005D44F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89A650BB1EC6FB30005D44F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A650BC1EC6FB30005D44F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A650BF1EC6FB30005D44F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89A650C01EC6FB30005D44F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A650C21EC6FB30005D44F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UML9BQURX9;
+				INFOPLIST_FILE = TFGridInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shiwei.TFGridInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89A650C31EC6FB30005D44F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UML9BQURX9;
+				INFOPLIST_FILE = TFGridInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shiwei.TFGridInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A650A51EC6FB30005D44F6 /* Build configuration list for PBXProject "TFGridInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A650BF1EC6FB30005D44F6 /* Debug */,
+				89A650C01EC6FB30005D44F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A650C11EC6FB30005D44F6 /* Build configuration list for PBXNativeTarget "TFGridInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A650C21EC6FB30005D44F6 /* Debug */,
+				89A650C31EC6FB30005D44F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A650A21EC6FB30005D44F6 /* Project object */;
+}
