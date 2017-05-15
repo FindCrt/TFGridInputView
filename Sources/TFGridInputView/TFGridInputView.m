@@ -20,6 +20,8 @@
     NSMutableDictionary *_stateStyleDic;
     
     CAShapeLayer *_borderLineLayer;
+    
+    
 }
 
 @property (nonatomic, strong, readonly) NSMutableString *textStore;
@@ -78,6 +80,12 @@
     
     _textCells = [[NSMutableArray alloc] init];
     _textStore = [[NSMutableString alloc] init];
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(becomeFirstResponder)];
+    [self addGestureRecognizer:tap];
+    
+    UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(showActionMenus:)];
+    [self addGestureRecognizer:longPress];
 }
 
 -(void)setupSubViews{
@@ -121,6 +129,7 @@
 }
 
 -(void)setText:(NSString *)text{
+    [_textStore deleteCharactersInRange:NSMakeRange(0, _textStore.length)];
     [self insertText:text];
 }
 
@@ -396,14 +405,6 @@
     return YES;
 }
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    
-    if (![self isFirstResponder]) {
-         
-         [self becomeFirstResponder];
-    }
-}
-
 -(BOOL)becomeFirstResponder{
     if (_highlightOnlyEditing && _textStore.length < _textCells.count ) {
         TFGridInputViewCell *highlightCell = _textCells[_textStore.length];
@@ -419,6 +420,36 @@
         [self changeCell:highlightCell stateTo:(TFGridInputViewCellStateEmpty)];
     }
    return [super resignFirstResponder];
+}
+
+#pragma mark - long press actions
+
+-(void)showActionMenus:(UILongPressGestureRecognizer *)longPress{
+    [self becomeFirstResponder];
+    
+    UIMenuController *menu = [UIMenuController sharedMenuController];
+    
+    CGPoint point = [longPress locationInView:self];
+    
+    [menu setTargetRect:CGRectMake(point.x, point.y, 0, 0) inView:self];
+    [menu setMenuVisible:YES animated:YES];
+}
+
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender
+{
+    if (action == @selector(copy:)
+        || action == @selector(paste:)) {
+        return YES;
+    }
+    return NO;
+}
+
+-(void)copy:(id)menu{
+    [UIPasteboard generalPasteboard].string = self.text;
+}
+
+-(void)paste:(id)menu{
+    self.text = [UIPasteboard generalPasteboard].string;
 }
 
 @end
