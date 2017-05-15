@@ -67,6 +67,7 @@
 -(void)singleLineConfig{
     //使用默认大小会拉大高宽，虽然设置100，但实际是6*40+(6+1)*8 = 296，参考布局规则
     _inputView = [[TFGridInputView alloc] initWithFrame:CGRectMake(30, 120, 100, 200) row:1 column:6];
+    _inputView.keyboardType = UIKeyboardTypeNumberPad;
     
     [self.view addSubview:_inputView];
 }
